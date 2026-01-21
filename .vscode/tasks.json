@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run static site with Live Server",
+			"type": "shell",
+			"command": "npx live-server static-site",
+			"args": [],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run static site with Live Server",
+			"type": "shell",
+			"command": "npx live-server static-site",
+			"args": [],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}

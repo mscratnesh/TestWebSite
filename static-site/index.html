@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paramount HR Services</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="header-include"></div>
+  <main>
+    <div id="hero-include"></div>
+    <div id="about-include"></div>
+    <div id="services-include"></div>
+    <div id="team-include"></div>
+    <div id="contact-include"></div>
+  </main>
+  <div id="footer-include"></div>
+</body>
+  <script>
+    // Simple HTML include loader for components
+    function loadComponent(id, url) {
+      fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById(id).innerHTML = html;
+        });
+    }
+    loadComponent('header-include', 'components/header.html');
+    loadComponent('hero-include', 'components/hero.html');
+    loadComponent('about-include', 'components/about.html');
+    loadComponent('services-include', 'components/services.html');
+    loadComponent('team-include', 'components/team.html');
+    loadComponent('contact-include', 'components/contact.html');
+    loadComponent('footer-include', 'components/footer.html');
+  </script>
+</html>
