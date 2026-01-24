@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutual Fund Distributor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mutual Fund Distributor</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to Your Investment Partner</h2>
+            <p>Your trusted guide to mutual fund investments. Secure your financial future with expert advice and a wide range of fund options.</p>
+            <img src="images/heroplaceholder.jpg" alt="Investment Hero" class="hero-img">
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>I would like to introduce myself as <strong>Ratnesh Kumar Singh</strong>. Here I will share my views on saving habits and what I have observed about saving and investments in my surroundings.</p>
+            <p><em>I am not registered with SEBI as a research analyst. My views are for educational purposes. Kindly consult a qualified financial adviser or a research analyst before making any investments.</em></p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Mutual Fund Distribution</li>
+                <li>Portfolio Review & Planning</li>
+                <li>Goal-Based Investment Advice</li>
+                <li>Tax Saving Solutions</li>
+            </ul>
+        </section>
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>What is a mutual fund?</h3>
+                <p>A mutual fund is a pool of money managed by professionals, invested in diversified assets to achieve specific financial goals.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How do I start investing?</h3>
+                <p>Contact us for a free consultation. We will guide you through the process and recommend suitable funds based on your goals.</p>
+            </div>
+        </section>
+        <section id="review-upload">
+            <h2>Share Your Review</h2>
+            <form id="review-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" required />
+
+                <label for="review">Review</label>
+                <textarea id="review" name="review" rows="3" required></textarea>
+
+                <label>Ratings</label>
+                <div class="star-rating">
+                    <input type="radio" id="star1" name="rating" value="1" required />
+                    <label for="star1">1</label>
+                    <input type="radio" id="star2" name="rating" value="2" />
+                    <label for="star2">2</label>
+                    <input type="radio" id="star3" name="rating" value="3" />
+                    <label for="star3">3</label>
+                    <input type="radio" id="star4" name="rating" value="4" />
+                    <label for="star4">4</label>
+                    <input type="radio" id="star5" name="rating" value="5" />
+                    <label for="star5">5</label>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+            <div id="review-message"></div>
+            <div id="reviews-list">
+                <h3>Recent Reviews</h3>
+                <div id="reviews" class="reviews-grid"></div>
+            </div>
+            <p>We will feature your review image on our website after verification.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <div id="form-message"></div>
+        </section>
+        <section id="disclaimer">
+            <h2>Disclaimer</h2>
+            <p>All content given on this blog is for educational purposes only. The author of this blog is not a SEBI registered financial adviser and is not associated with any agency, company, or brokerage house.</p>
+            <p>Any advice mentioned on this blog is not personal advice to anyone.</p>
+            <p>Readers are responsible for acting on any advice mentioned here. We are not responsible for any risk or loss that might occur as a result of placing this information into action in any way and regardless of your interpretation of the advice.</p>
+            <p>It is your responsibility to conduct your own due diligence before acting on any advice. It is recommended to consult a competent financial advisor/planner before making investments or acting on any advice.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Mutual Fund Distributor. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
